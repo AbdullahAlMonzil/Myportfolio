@@ -1,0 +1,190 @@
+*{
+   margin: 0px;
+   font-style: normal;
+   line-height: normal;
+}
+header{
+   background-color: #FFF8F3;
+   display: flex;
+}
+a{
+  text-decoration: none;
+}
+span{
+   color: #FD6E0A;
+   font-size: 45px;
+   font-weight: 800;
+}
+nav h1{
+   color: var(--Dark-01, #181818);
+   font-size: 45px;
+   font-weight: 800;
+}
+.name{
+   color: var(--Dark-01, #181818);
+   font-size: 85px;
+   font-weight: 700;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding-right: 40px;
+   align-items: center;
+}
+h3{
+   color: var(--Dark-02, #474747);
+   font-size: 45px;
+   font-weight: 600;
+
+}
+nav ul{
+   display: flex;
+   list-style-type: none;
+   column-gap: 30px;
+}
+button{
+   color:white;
+   background-color: #FD6E0A;
+   border-radius: 0px;
+   border-color: white;
+   height: 64px;
+   border-radius: 20px;
+   box-shadow: none;
+}
+.banner{
+   display: flex;
+   justify-content: space-between;
+   background-image: url("images/header_bg.jpg");
+   background-repeat: no-repeat;
+   background-position: bottom right;
+}
+.left-banner p{
+   color: var(--Dark-03, #757575);
+   font-size: 18px;
+   line-height: 30px;
+}
+.about{
+   margin: 230px 130px;
+   font-size: 20px;
+   background-color: #FFF8F3;
+   padding: 50px 50px;
+}
+.about-me{
+   margin:100px 100px;
+}
+.about-me h1{
+   text-align: center;
+}
+.about-me p{
+   text-align: center;
+   margin: 30px 15px;
+   color: #757575;
+}
+.personal-information{
+   display: flex;
+   justify-content: space-between;
+   column-gap: px;
+   font-weight: 400;
+   line-height: 30px;
+   margin: 100px 100px;
+}
+.personal-information h1{
+   font-size: 25px;
+   color: #474747;
+}
+.personal-information p{
+   color: #757575;
+}
+.skill{
+   text-align: center;
+   margin: 120px 340px;
+}
+.skill h1{
+   color: #474747 ;
+}
+.skill p{
+   color: #757575;
+}
+.skill-info{
+   display: flex;
+   margin: 50px 230px;
+   column-gap: 25px;
+   border-radius: 5px;
+   background-color: #FFF;
+}
+.skill-info .details{
+   border-radius: 5px;
+   background: #FFF;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-info img{
+   margin: 20px 30px;
+}
+.skill-info h2{
+   margin: 20px 30px;
+   color: #474747;
+}
+.skill-info p{
+   margin: 20px 30px;
+   color: #757575;
+}
+.resume>h1{
+   text-align: center;
+   margin-top: 130px;
+}
+.resume-details{
+   display: flex;
+   margin: 110px 230px;
+   column-gap: 50px;
+}
+.resume-details h1{
+   margin-bottom: 30px;
+   color: #474747;
+}
+.R-card h2{
+   margin: 20px 0px;
+   color: #474747;
+}
+.R-card h4{
+   margin-bottom: 10px;
+   color: #757575;
+}
+.R-card p{
+   color:  #757575;
+}
+.resume button{
+   width: 200px;
+   margin-left: 650px;
+}
+.footer{
+   background-color: #FFF8F3;
+   display: flex;
+   column-gap: 115px;
+   margin-top: 115px;
+   width: 1600px;
+   height: 780px;
+}
+.footer-left{
+   margin-top: 130px;
+   margin-left: 230px;
+}
+.footer-left h1{
+   margin-top: 10px;
+}
+.footer-left p{
+  width: 550px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.footer-left img{
+  margin-left: 20px;
+}
+.footer-right{
+   margin-top: 130px;
+}
+.footer-right form input{
+   margin-top: 20px;
+}
+.footer-right form textarea{
+   margin-top: 20px;
+}
